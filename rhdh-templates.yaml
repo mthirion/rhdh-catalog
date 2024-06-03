@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: my-software-templates
+  description: A demo template descriptor
+spec:
+  type: url
+  targets:
+    - https://github.com/mthirion/rhdh-app/blob/main/my-template.yaml
